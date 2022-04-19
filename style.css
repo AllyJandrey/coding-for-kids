@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+.coding-for-kids{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+
+    background-color: #116CFF;
+}
+
+.imagem1{
+    height: 100%;
+}
+
+.coding-for-kids article{
+    width: 522px;
+}
+
+.coding-for-kids{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coding-for-kids p{
+    width: 403px;
+    height: 64px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.logical-thinking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #00235C;
+}
+
+.logical-thinking article {
+    width: 630px;
+}
+
+.logical-thinking h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logical-thinking p {
+    width: 561px;
+    height: 160px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.preparing-your-kids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.preparing-your-kids article {
+    width: 570px;
+    margin-right: 38px;
+}
+
+.preparing-your-kids h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preparing-your-kids p {
+    width: 526px;
+    height: 120px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .logical-thinking article {
+        width: 498px;
+        text-align: center;
+    }
+
+    .logical-thinking h1 {
+        width: 483px;
+        height: 180px;
+        margin-top: 0px;
+    }
+
+    .logical-thinking p {
+        width: 483px;
+        height: 218px;
+    }
+
+    .preparing-your-kids {
+        flex-direction: column-reverse;
+    }
+
+    .preparing-your-kids article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 655px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .preparing-your-kids h1 {
+        height: 180px;
+    }
+
+    .preparing-your-kids p {
+        margin: 0;
+        height: 202px;
+    }
+
+}
+
+.testimony{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.testimony h1{
+    width: 185px;
+    height: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #116CFF;
+}
+
+.chat1{
+    width: 440px;
+    height: 187px;
+    left: 20.66px;
+    top: 0px;
+
+    background: #E7F0FF;
+    border-radius: 20px;
+}
+
+.our-class{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.our-class h1{
+    width: 172px;
+    height: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
