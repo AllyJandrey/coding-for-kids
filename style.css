@@ -266,16 +266,38 @@ section {
 }
 
 .tabtexto{
-    width: 327px;
-    height: 32.59px;
+
+}
+
+.tablinha1{
+    width: 1166px;
+    height: 0px;
+
+    background: #116CFF;
+    border: 0.5px solid #116CFF;
+
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+}
 
-    color: #116CFF;
+.tablinha2{
+    width: 1166px;
+    height: 0px;
+
+    background: #116CFF;
+    border: 0.5px solid #116CFF;
+}
+
+.tablinha3{
+    width: 1166px;
+    height: 0px;
+
+    background: #116CFF;
+    border: 0.5px solid #116CFF;
 }
 
 
