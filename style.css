@@ -234,6 +234,51 @@ section {
     line-height: 60px;
 }
 
+.tabelacima {
+    display: grid;
+    width: 1166px;
+    height: 115px;;
+    border: 4px solid #FF463A;
+
+    background-color: #CFE2FF
+}
+
+.tabtitulo{
+    width: 288px;
+    height: 30px;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #00235C;
+}
+
+.tabbaixo{
+    width: 1166px;
+    height: 259px;
+    border: 0.5px solid #116CFF;
+
+    background-color: #FFFFFF;
+}
+
+.tabtexto{
+    width: 327px;
+    height: 32.59px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #116CFF;
+}
+
+
 .contact-us{
     display: flex;
     align-items: center;
@@ -244,4 +289,18 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.rodape1{
+    width: 363px;
+    height: 471px;
+    left: 0px;
+    top: 362.5px;
+
+    background-color: #00235C;
+}
+
+.logorodape{
+    width: 377px;
+    height: 187px;
 }
