@@ -232,10 +232,14 @@ section {
     line-height: 60px;
 }
 
+table{
+    width:1266px;
+    height:474px;
+}
+
 .tabtitulo{
     width: 288px;
     height: 30px;
-    text-align: center;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -249,6 +253,7 @@ section {
 .tabtexto{
     width: 327px;
     height: 32.59px;
+    align-items: center;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -309,6 +314,54 @@ section {
     border-radius: 10px;
 }
 
+.tabbaixo{
+    background-color: #FFFFFF;
+}
+
+.tabtexto2{
+    width: 327px;
+    height: 32.59px;
+    left: 124px;
+    top: 293.17px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #116CFF;
+}
+
+.tabpreco{
+    width: 67px;
+    height: 30px;
+    text-align: right;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #00235C;
+}
+
+.tabpreco2{
+    width: 50px;
+    height: 30px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: right;
+
+    color: #FF463A;
+}
+
 .contact-us{
     display: flex;
     align-items: center;
@@ -328,13 +381,13 @@ section {
     color: #116CFF;
 }
 
-.rodape{
+.rodape1{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.rodape1{
+.rodape2{
     width: 363px;
     height: 471px;
     top: 362.5px;
