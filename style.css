@@ -19,16 +19,54 @@ section {
 
 .cabecalho{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 50px;
 
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
     background-color: #116CFF;
 }
 
 .imagem1{
     height: 100%;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 30px;
+
+    position: static;
+    width: 104px;
+    height: 39px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.loginescrita{
+    width: 44px;
+    height: 19px;
+    left: 30px;
+    top: 10px;
+    align-items: center;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #116CFF;
 }
 
 .coding-for-kids article{
