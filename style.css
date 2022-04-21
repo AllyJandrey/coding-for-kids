@@ -285,39 +285,46 @@ section {
 
 .testimony{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    background-color: #FFFFFF;
 }
 
 .testimony h1{
     width: 185px;
     height: 50px;
+    left: 101px;
+    top: 60px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 36px;
+    line-height: 50px;
 
     color: #116CFF;
+
+
 }
 
-.chat1{
+.crianca{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.chatinfo{
     padding: 24px;
+    margin: 20px;
+
 
     width: 440px;
     height: 187px;
     left: 20.66px;
+    top: 0px;
 
-    background: #E7F0FF;
-    border-radius: 20px;
-}
-
-.chat1 h1{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -326,66 +333,58 @@ section {
     letter-spacing: 0.015em;
 
     color: #00235C;
+
+    background: #E7F0FF;
+    border-radius: 20px;
 }
 
-.chat1 p{
+.chatinfo2{
+    padding: 24px;
+    margin: 20px;
+
+
+    width: 440px;
+    height: 187px;
+    left: 20.66px;
+    top: 0px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+
+    color: #00235C;
+
+    background-color: #FFE6E5;
+    border-radius: 20px;
+}
+
+.pessoatexto{
+
+    height: 78px;
+    left: 510px;
+    top: 16px;
+
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
 
+
     color: #00235C;
+}
+.resolucao{
+    width: 65.45px;
+    height: 64.1px;
+    left: 172.73px;
+    top: 169.12px;
 }
 
 .chat2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 24px;
-
-    position: absolute;
-    width: 440px;
-    height: 189px;
-    left: 723px;
-    top: 162px;
-
-    background: #FFE6E5;
-    border-radius: 20px;
-}
-
-
-.chat3{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 24px;
-
-    position: absolute;
-    width: 440px;
-    height: 187px;
-    left: 20.66px;
-
-    background: #FFE6E5;
-    border-radius: 20px;
-}
-
-.chat4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 24px;
-
-    position: absolute;
-    width: 440px;
-    height: 189px;
-    left: 723px;
-    top: 371px;
-
-    background: #E7F0FF;
-    border-radius: 20px;
+    margin-top: 80px;
 }
 
 .our-class{
