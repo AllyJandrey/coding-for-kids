@@ -22,6 +22,7 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
+    flex-direction: row;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -34,21 +35,42 @@ section {
     background-color: #116CFF;
 }
 
+.botoes{
+    display: flex;
+    gap: 70px;
+}
+
+.botoesmenu{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
 .imagem1{
     height: 100%;
 }
 
 .login{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 30px;
+    border: none;
 
-    position: static;
     width: 104px;
     height: 39px;
 
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
     background-color: #FFFFFF;
+    color: #116CFF;
     border-radius: 10px;
 }
 
@@ -57,7 +79,6 @@ section {
     height: 19px;
     left: 30px;
     top: 10px;
-    align-items: center;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -74,12 +95,8 @@ section {
     height: 52px;
     left: 100px;
     top: 477px;
+    border: none;
 
-    background-color: #FFFFFF;
-    border-radius: 10px;
-}
-
-.book-a-classescrita{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -88,6 +105,9 @@ section {
     text-align: center;
 
     color: #116CFF;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
 
 .learnmore{
@@ -99,9 +119,7 @@ section {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
-}
 
-.learnmoreescrita{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -110,6 +128,7 @@ section {
     text-align: center;
 
     color: #FFFFFF;
+    background-color: #116CFF;
 }
 
 .coding-for-kids article{
@@ -298,9 +317,81 @@ section {
     border-radius: 20px;
 }
 
+.chat1 h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+
+    color: #00235C;
+}
+
+.chat1 p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #00235C;
+}
+
+.chat2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 440px;
+    height: 189px;
+    left: 723px;
+    top: 162px;
+
+    background: #FFE6E5;
+    border-radius: 20px;
+}
+
+
+.chat3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 440px;
+    height: 187px;
+    left: 20.66px;
+    top: 0px;
+
+    background: #FFE6E5;
+    border-radius: 20px;
+}
+
+.chat4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 440px;
+    height: 189px;
+    left: 723px;
+    top: 371px;
+
+    background: #E7F0FF;
+    border-radius: 20px;
+}
+
 .our-class{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: left;
     flex-direction: column;
 
@@ -309,8 +400,7 @@ section {
 }
 
 .our-class h1{
-    width: 172px;
-    height: 50px;
+    text-align: left;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -322,11 +412,23 @@ section {
 table{
     width:1266px;
     height:474px;
+
+    border-collapse:collapse;
+}
+
+table, td{
+    border: none;
+}
+
+tr{
+    border-bottom: 1px solid #116CFF;
 }
 
 .tabtitulo{
     width: 288px;
     height: 30px;
+    left: 24px;
+    top: 16px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -349,20 +451,6 @@ table{
     line-height: 30px;
 
     color: #116CFF;
-}
-
-.tablinha{
-    width: 1166px;
-
-    background: #116CFF;
-    border: 0.5px solid #116CFF;
-
-
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
 }
 
 .tabcima{
@@ -388,6 +476,7 @@ table{
     width: 135px;
     height: 50px;
     left: 1107px;
+    border: none;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -553,22 +642,13 @@ table{
     color: #00235C;
 }
 
-.registerarea{
+.register{
     width: 200px;
     height: 52px;
     left: 756px;
     top: 537px;
-
-    background: #116CFF;
-    border-radius: 10px;
-}
-
-.register{
-    width: 83px;
-    height: 24px;
-    left: 815px;
-    top: 552px;
-
+    border: none;
+    margin: 20px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -577,17 +657,9 @@ table{
     text-align: center;
 
     color: #FFFFFF;
-}
 
-.circulo{
-    width: 80px;
-    height: 80px;
-    left: 1237px;
-    top: 277px;
-
-    border: 2px solid #FF463A;
-    box-sizing: border-box;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: #116CFF;
+    border-radius: 10px;
 }
 
 .fones{
@@ -597,88 +669,55 @@ table{
     top: 305px;
 }
 
-.askteacherarea{
+.askteacher{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 4px 16px;
+    border: none;
 
     width: 139px;
     height: 30px;
     left: 1127px;
     top: 344px;
 
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+
+
     background-color: #FF463A;
+    color: #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
-.askteacher{
-    width: 107px;
-    height: 22px;
-    left: 16px;
-    top: 4px;
-
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
 .rodape{
-    align-items: center;
-    justify-content: center;
-}
-
-.rodape1{
-    width: 1400px;
-    height: 300px;
+    display: flex;
 
     background-color: #00235C;
 }
 
-.instagram{
-    left: 12.51%;
-    right: 12.45%;
-    top: 12.52%;
-    bottom: 12.33%;
-}
+.rodape1{
+    width: 1600px;
+    height: 300px;
 
-.youtube{left: 8.27%;
-    right: 8.33%;
-    top: 20.83%;
-    bottom: 20.78%;}
-
-.facebook{
-    left: 8.34%;
-    right: 8.32%;
-    top: 8.35%;
-    bottom: 8.83%;
-}
-
-.google{
-    left: 12.59%;
-    right: 14.65%;
-    top: 12.73%;
-    bottom: 12.86%;
+    background-color: #00235C;
 
 }
 
-.logorodape{
-    width: 377px;
-    height: 187px;
+.icones{
+    flex-direction: row;
+    margin-right: 36.97px;
 }
 
-.endereco{
+.logorodape p{
     width: 377px;
     height: 18px;
     top: 67px;
+    margin-top: 60px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -691,10 +730,39 @@ table{
     color: #FFFFFF;
 }
 
-.emailrodape{
-    width: 208px;
+.logorodape{
+    flex-direction: column;
+    align-items: center;
+}
+
+.navegacao{
+    flex-direction: row;
+    display: flex;
+    gap: 82px;
+    justify-content: flex-end;
+    margin: 88px;
+}
+
+.linha{
+    width: 86px;
     height: 18px;
-    top: 115px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+
+    letter-spacing: 0.02em;
+    margin: 30px;
+
+    color: #116CFF;
+}
+
+.linha2{
+    width: 121px;
+    height: 18px;
+    top: 48px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -703,6 +771,7 @@ table{
     line-height: 18px;
 
     letter-spacing: 0.02em;
+    margin: 30px;
 
     color: #FFFFFF;
 }
