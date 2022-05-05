@@ -1,3 +1,5 @@
+![coding-for-kids](https://user-images.githubusercontent.com/100244773/167022811-1fe64ec1-bdd5-4283-ac8b-3bb27aa74813.png)
+
 # Coding For Kids
 
 Passado como exercício sobre HTML e CSS.
